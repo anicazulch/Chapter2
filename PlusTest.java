@@ -18,7 +18,10 @@ public class PlusTest
                                  "years ago.");
           // This will print the first sentence followed by 55 then print the other sentence right after 
           System.out.println ("8 plus 5 is " + 8 + 5);
+          // It will just print 85 following the string because it is not in parentheses 
           System.out.println ("8 plus 5 is " + (8 + 5));
+          // It will add the two number together and print 13 after the string
           System.out.println (8 + 5 + " equals 8 plus 5.");
+          // It will added the two numbers first because of the order of operations then print the string
         }
 }
